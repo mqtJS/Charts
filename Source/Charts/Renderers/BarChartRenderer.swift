@@ -484,11 +484,11 @@ open class BarChartRenderer: BarLineScatterCandleBubbleRenderer
                             break
                         }
                         
-                        if !viewPortHandler.isInBoundsY(rect.origin.y)
-                            || !viewPortHandler.isInBoundsLeft(x)
-                        {
-                            continue
-                        }
+//                        if !viewPortHandler.isInBoundsY(rect.origin.y)
+//                            || !viewPortHandler.isInBoundsLeft(x)
+//                        {
+//                            continue
+//                        }
                         
                         let val = e.y
                         
@@ -553,11 +553,11 @@ open class BarChartRenderer: BarLineScatterCandleBubbleRenderer
                                 break
                             }
                             
-                            if !viewPortHandler.isInBoundsY(rect.origin.y)
-                                || !viewPortHandler.isInBoundsLeft(x)
-                            {
-                                continue
-                            }
+//                            if !viewPortHandler.isInBoundsY(rect.origin.y)
+//                                || !viewPortHandler.isInBoundsLeft(x)
+//                            {
+//                                continue
+//                            }
                             
                             if dataSet.isDrawValuesEnabled
                             {
