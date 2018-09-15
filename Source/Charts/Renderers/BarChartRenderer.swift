@@ -559,6 +559,7 @@ open class BarChartRenderer: BarLineScatterCandleBubbleRenderer
 //                                continue
 //                            }
                             
+                            
                             if dataSet.isDrawValuesEnabled
                             {
                                 drawValue(
